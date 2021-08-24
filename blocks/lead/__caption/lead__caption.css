@@ -1,0 +1,8 @@
+.lead__caption{
+    margin: 0;
+    margin-top: 8px;
+    justify-self:start;
+    grid-area: caption;
+    font-size: 10px;
+    line-height: 14px;
+}
