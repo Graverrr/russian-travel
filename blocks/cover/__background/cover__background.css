@@ -1,0 +1,15 @@
+.cover__background {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 1024px) {
+.cover__background {
+    grid-column: 1/4;
+}
+}

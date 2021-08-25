@@ -1,0 +1,10 @@
+.intro {
+    display: grid;
+    grid-template-columns: minmax(min-content, 984px);
+    grid-template-rows: repeat(3, min-content);
+    grid-template-areas:
+        " title "
+        " text "
+        " list ";
+    justify-content: center;
+}

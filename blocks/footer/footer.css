@@ -1,0 +1,9 @@
+.footer {
+    max-width: 100%;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 48px 12px;
+    flex-wrap: wrap;
+    align-items: baseline;
+}

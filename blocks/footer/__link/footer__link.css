@@ -1,0 +1,9 @@
+.footer__link {
+    list-style-type: none;
+    align-self: flex-start;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 18px 12px 0;
+}
