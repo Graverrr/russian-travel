@@ -1,6 +1,6 @@
 .cover {
     display: grid;
-    grid-template-columns:  1fr ;
+    grid-template-columns:  1fr;
     grid-template-rows: fit-content(740px);
     justify-items: center;
 }
