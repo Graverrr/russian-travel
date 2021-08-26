@@ -25,14 +25,15 @@
 
 @media screen and (max-width: 700px){
   .place {
+    margin: 0 16px;
     grid-column: 1/2;
-    grid-template-columns: 16px 1fr 16px;
+    grid-template-columns:  1fr;
     grid-template-rows: repeat(4, minmax(min-content, max-content));
     grid-template-areas:
-        ". title ."
-        ". website ."
-        "image image image"
-        ". paragraphs .";
+        " title   "
+        " website  "
+        " image"
+        " paragraphs ";
     row-gap: 32px;
     column-gap: 0;
 }
