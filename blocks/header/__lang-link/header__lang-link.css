@@ -2,8 +2,19 @@
     margin-right: 18px;
     color: white;
     text-decoration: none;
+    line-height: 28px;
+
+    font-size: 24px;
 }
 
+
+@media screen and (max-width: 470px) {
+    .header__lang-link {
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+  
 
 
 

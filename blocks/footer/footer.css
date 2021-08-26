@@ -7,3 +7,15 @@
     flex-wrap: wrap;
     align-items: baseline;
 }
+  
+  @media screen and (max-width: 767px) {
+    .footer {
+        margin: 0;
+        margin-bottom: 24px;
+        margin-left: 16px;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: flex-start;
+    }
+  }
+  

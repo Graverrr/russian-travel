@@ -8,3 +8,18 @@
         " list ";
     justify-content: center;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .intro {
+      grid-template-columns: minmax(min-content, 928px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .intro {
+      grid-template-columns: minmax(min-content, 720px);
+    }
+  }
+  

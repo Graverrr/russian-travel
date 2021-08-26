@@ -5,6 +5,7 @@
     grid-column: 2/3;
     grid-row: 1/2;
     z-index: 1;
+    max-width: 1184px;
 }
 
 

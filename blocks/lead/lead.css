@@ -10,3 +10,17 @@
     justify-content: center;
     justify-items: center;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .lead {
+      grid-template-columns: minmax(min-content, 928px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .lead {
+      grid-template-columns: minmax(min-content, 100%);
+    }
+  }
+  
