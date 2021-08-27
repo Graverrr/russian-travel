@@ -12,11 +12,11 @@
 }
 .cover__link:hover {
     background-color: rgba(42, 44, 47, 0.8);
-  }
+}
   
 
 @media screen and (max-width: 1024px) {
-.cover__link {
-    grid-column: 1/4;
-}
+    .cover__link {
+        grid-column: 1/4;
+    }
 }

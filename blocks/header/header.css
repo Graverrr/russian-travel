@@ -1,20 +1,20 @@
 .header{
-    margin: 28px 48px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    grid-area: header;
+  margin: 28px 48px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  grid-area: header;
 }
 
 @media screen and (max-width: 768px) {
-    .header {
-      margin: 28px 24px 0;
-    }
+  .header {
+    margin: 28px 24px 0;
   }
+}
   
-  @media screen and (max-width: 470px) {
-    .header {
-      margin: 16px 16px 0;
-    }
+@media screen and (max-width: 470px) {
+  .header {
+    margin: 16px 16px 0;
   }
+}
   

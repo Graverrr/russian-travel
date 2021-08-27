@@ -9,7 +9,7 @@
     grid-template-rows: repeat(3, min-content);
     justify-content: center;
     grid-template-areas:
-        "header"
-        "content"
-        "footer";
+    "header"
+    "content"
+    "footer";
 }
