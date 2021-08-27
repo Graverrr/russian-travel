@@ -4,8 +4,7 @@
 }
 
 @media screen and (max-width: 700px){
-.place__image {
-    max-width: 100%;
-    justify-self: center;
-}
+    .place__image {
+        justify-self: center;
+    }
 }

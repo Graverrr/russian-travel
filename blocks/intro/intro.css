@@ -14,7 +14,6 @@
 @media screen and (max-width: 1024px) {
   .intro {
     grid-template-columns: minmax(min-content, 928px);
-    margin-left: 48px;
   }
 }
   
