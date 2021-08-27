@@ -3,9 +3,9 @@
   grid-area: footer;
   display: flex;
   justify-content: space-between;
-  padding: 0 48px 12px;
   flex-wrap: wrap;
   align-items: baseline;
+  margin: 0 48px 24px;
 }
   
 @media screen and (max-width: 767px) {
