@@ -1,13 +1,13 @@
 .cover {
-    display: grid;
-    grid-template-columns:  1fr;
-    grid-template-rows: fit-content(740px);
-    justify-items: center;
-    margin: 0 48px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: fit-content(740px);
+  justify-items: center;
+  margin: 0 48px;
 }
 
 @media screen and (max-width: 1024px) {
-    .cover{
-        margin: 0;
-    }
+  .cover {
+    margin: 0;
+  }
 }

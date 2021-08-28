@@ -1,6 +1,6 @@
 .places {
   display: grid;
-  grid-template-columns: 48px minmax(min-content, 984px) 48px;
+  grid-template-columns: minmax(min-content, 984px);
   justify-content: center;
   justify-items: center;
   row-gap: 80px;
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   .places {
     grid-template-columns: 1fr;
     row-gap: 50px;

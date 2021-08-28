@@ -1,19 +1,18 @@
-.lead__image{
-    max-width: 984px;
-    width: 100%;
-    margin-top: 32px;
-    grid-area: image;
+.lead__image {
+  max-width: 984px;
+  width: 100%;
+  margin-top: 32px;
+  grid-area: image;
 }
 
-
-@media screen and (max-width:768px){
-    .lead__image{
-        margin: 0;
-    }
+@media screen and (max-width: 768px) {
+  .lead__image {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .lead__image {
-        margin: 0 2px;
-    }
+  .lead__image {
+    margin: 0 2px;
+  }
 }

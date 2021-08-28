@@ -3,20 +3,18 @@
   grid-template-columns: minmax(min-content, 984px);
   grid-template-rows: repeat(3, min-content);
   grid-template-areas:
-  "title"
-  "text"
-  "list";
+    "title"
+    "text"
+    "list";
   justify-content: center;
 }
-
-
 
 @media screen and (max-width: 1024px) {
   .intro {
     grid-template-columns: minmax(min-content, 928px);
   }
 }
-  
+
 @media screen and (max-width: 768px) {
   .intro {
     grid-template-columns: minmax(min-content, 720px);
@@ -25,7 +23,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .intro{
+  .intro {
     margin: 0 16px;
   }
 }
